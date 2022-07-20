@@ -4,6 +4,7 @@ import { Envelope, Key } from 'phosphor-react-native';
 import Logo from '../assets/logo_primary.svg';
 
 import { Input } from '../components/Input';
+import { Button } from '../components/Button';
 
 export function SignIn() {
   const { colors } = useTheme();
@@ -17,16 +18,19 @@ export function SignIn() {
       </Heading>
 
       <Input
-        placeholder="E-mail"
         mb={4}
+        placeholder="E-mail"
         InputLeftElement={<Icon as={<Envelope color={colors.gray[300]} />} ml={4} />}
       />
 
-      <Input placeholder="Senha"
+      <Input
+        mb={8}
+        placeholder="Senha"
         InputLeftElement={<Icon as={<Key color={colors.gray[300]} />} ml={4} />}
         secureTextEntry
       />
 
+      <Button title="Entrar" w="full" />
     </VStack>
   )
 }
