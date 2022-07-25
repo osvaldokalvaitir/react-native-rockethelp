@@ -30,7 +30,9 @@
 
 ## :iphone: Demo
 
-![Demo](/.github/assets/demo.gif)
+<p align="center">
+  <img src="/.github/assets/demo.gif" alt="Demo" />
+</p>
 
 ## :wrench: Install and run
 
