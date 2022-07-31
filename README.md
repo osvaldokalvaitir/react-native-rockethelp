@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :question: RocketHelp Application using React Native, Expo, TypeScript, @react-navigation/native, @react-navigation/stack
+  :question: RocketHelp Application using React Native, Expo, TypeScript, NativeBase, React Native Firebase, React Native Firebase - Authentication, React Native Firebase - Cloud Firestore, @react-navigation/native, @react-navigation/stack, react-native-svg, react-native-svg-transformer, phosphor-react-native and consuming the features of the Firebase
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ cd react-native-rockethelp
 npm install | yarn
 
 # Launch the app on ios with expo
-expo run:android | yarn android
+npm run android | yarn android
 
 # The Metro Bundler will open in the browser tab.
 
