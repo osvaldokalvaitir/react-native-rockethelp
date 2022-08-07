@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :question: RocketHelp Application using React Native, Expo, TypeScript, NativeBase, React Native Firebase, React Native Firebase - Authentication, React Native Firebase - Cloud Firestore, @react-navigation/native, @react-navigation/stack, react-native-svg, react-native-svg-transformer, phosphor-react-native and consuming the features of the Firebase
+  :question: RocketHelp Application using React Native, Expo, TypeScript, NativeBase, React Native Firebase, React Native Firebase - Authentication, React Native Firebase - Cloud Firestore, @react-navigation/native, @react-navigation/stack, react-native-svg, react-native-svg-transformer, phosphor-react-native and consuming the features of the Firebase platform
 </p>
 
 <p align="center">
@@ -36,6 +36,8 @@
 
 ## :wrench: Install and run
 
+_ps: Before running the app, configure Firebase platform._
+
 Open terminal:
 
 ```sh
@@ -58,6 +60,8 @@ npm run android | yarn android
 
 # Click 'Run on iOS simulator' to run the project in iOS emulator.
 ```
+
+Click to learn more: [Firebase](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/firebase.md) - Follow the steps `Criar um projeto`, `Adicionar ao aplicativo`, `Authentication` and `Firestore Database`.
 
 ## :memo: License
 
